@@ -95,7 +95,7 @@ de_DE:
         info: "Nutzer können eine Präsentation vorab hochladen, die als Standardpräsentation für diesen speziellen Raum verwendet werden soll"
         title: "Nutzern erlauben, Präsentationen vorab hochzuladen"
       registration:
-        info: "Methode ändern, wie sich Nutzer auf der Website registrieren"
+        info: "Methode ändern, wie sich Benutzer auf der Website registrieren"
         title: Registrierungsmethode
         methods:
           approval: Zulassen/Ablehnen
@@ -189,8 +189,8 @@ de_DE:
       edit:
         title: Nutzerdetails bearbeiten
       settings:
-        approve: Zulassen
-        decline: Ablehnen
+        approve: Freischalten
+        decline: Abweisen
         ban: Sperren
         delete: Löschen
         edit: Ändern
@@ -202,14 +202,12 @@ de_DE:
       table:
         authenticator: Authenticator
         created: Erzeugt
-        time: Zeitpunkt
         name: Name
         not_found: Keinen Teilnehmer für Ihre Suchkriterien gefunden
         no_users: Kein Teilnehmer gefunden
         role: Rolle
         uid: Teilnehmer ID
         username: Teilnehmername
-        valid: Gültig
       title: Nutzer verwalten
   add_to_google_calendar: "Zum Google Kalender hinzufügen"
   bigbluebutton: BigBlueButton
@@ -320,7 +318,7 @@ de_DE:
   language_default: Voreinstellung (Browsersprache)
   ldap_error: "Verbindung zum LDAP Server konnte nicht hergestellt werden. Bitte überprüfen Sie die LDAP Konfiguration und stellen Sie sicher, dass der LDAP-Server läuft."
   login: Einloggen
-  login_title: In Ihr Konto einloggen
+  login_title: Melden Sie sich an
   mailer:
     user:
       approve:
@@ -366,7 +364,7 @@ de_DE:
       verify_email:
         welcome: "Willkommen zu Ihrem persönlichem Bereich, %{name}!"
         success: "Durch den Einsatz von %{bigbluebutton}, können Sie Ihre eigenen Räume erstellen, dort Konferenzen durchführen und mit anderen zusammenarbeiten."
-        username: "Ihr Nutzername ist %{email}."
+        username: "Ihr Benutzername ist  %{email}."
         verify: "Zur Kontoverifikation, klicken Sie bitte auf den untenstehenden Link."
         verify_text: 'Um Ihr Konto zu verifizieren, folgen Sie diesem Link: %{url}'
         verify_link: Konto verifizieren
@@ -401,7 +399,7 @@ de_DE:
       warning: Sie werden diese Aufzeichnung <b>nicht</b> wiederherstellen können.
     delete_room:
       confirm: "Sind Sie sicher, dass Sie %{room} löschen wollen?"
-      delete: "Ich bin sicher, dieser Raum soll gelöscht werden."
+      delete: Ich will diesen Raum löschen.
       keep: Ich will ihn doch nicht löschen.
       warning: "Sie werden <b>nicht</b> in der Lage sein, diesen Raum wiederherzustellen"
       recording_warning: "oder jegliche seiner %{recordings_num} verknüpften Aufzeichnungen."
@@ -425,8 +423,8 @@ de_DE:
     rename_recording:
     remove_shared:
       title: "Sind Sie sicher, dass Sie diesen Raum aus Ihrer Raumliste entfernen wollen?"
-      delete: "Ich bin sicher, der Raum soll entfernt werden."
-      warning: Sie werden <b>keinen</b> Zugriff mehr auf diesen Raum haben.
+      delete: Ich bin mir sicher. Der Raum soll entfernt werden.
+      warning: Sie werden  <b>keinen</b> Zugriff mehr auf diesen Raum haben.
     room_settings:
       title: Raumeinstellungen
       update: Raum aktualisieren
@@ -468,9 +466,9 @@ de_DE:
   password_different_notice: Passwortbestätigung ist nicht zutreffend.
   provider:
     google: Google
-    office365: Office 365
+    office365: Office 365 (für Externe)
     twitter: Twitter
-    ldap: LDAP
+    ldap: Ihrer BA-Kennung
   recaptcha:
     errors:
       recaptcha_unreachable: "Ups, es war nicht möglich die reCAPTCHA Antwort zu überprüfen. Bitte versuchen Sie es nochmals."
@@ -528,11 +526,10 @@ de_DE:
     banned: Gesperrt
     deleted: Gelöscht
     pending: Wartend
-    user: Nutzer
+    user: Benutzer
   room:
     access_code_required: "Bitte geben Sie einen gültigen Zugangscode ein, um den Raum zu betreten"
     add_presentation: Präsentation hinzufügen
-    copy_access: Zugangscode kopieren
     create_room: Raum erstellen
     create_room_error: Bei der Erstellung des Raums ist ein Fehler aufgetreten
     create_room_success: Raum erfolgreich erstellt
@@ -593,7 +590,7 @@ de_DE:
       roles: Nutzer-Rolle
       subtitle: Kontoinformationen aktualisieren
       title: Kontoinformationen
-      reset_password: Nutzer-Passwort zurücksetzen
+      reset_password: Benutzer-Passwort zurücksetzen
     delete:
       button: "Ja, ich möchte mein Konto löschen."
       disclaimer: "Wenn Sie Ihr Konto löschen, können Sie es <b>NICHT</b> wiederherstellen. Alle mit Ihrem Konto verbundenen Informationen - wie Einstellungen, Räume und Aufzeichnungen - werden gelöscht."
